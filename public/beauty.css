@@ -50,7 +50,7 @@
     margin-top: -275px;
     margin-left: 100px;
     z-index: 1;
-    min-width: 2 50px;
+    max-width: 100%;
 }
 
 .get-in-touch {
@@ -123,9 +123,9 @@
     line-height: 2.2;
     font-size: 1.25rem;
     font-family: 'Arimo', sans-serif;
-
     margin: 43px auto 0;
     width: 850px;
+    max-width: 100%;
     word-wrap: break-word;
 }
 
@@ -163,6 +163,7 @@ h5 {
 
 .location {
     padding: 30px 90px 30px 20px;
+    max-width: 100%;
 }
 
 .name {
@@ -180,7 +181,7 @@ h5 {
 .loca-p1 {
     margin-top: 40px;
     font-family: 'Arimo', sans-serif;
-
+    line-height: 0.3;
 }
 
 .follow {
@@ -196,6 +197,7 @@ h5 {
 
 .follow-us {
     padding: 30px 90px 30px 20px;
+    max-width: 100%;
 }
 
 .main-3rd {
@@ -243,6 +245,8 @@ h5 {
 .img-2 {
     padding-top: 50px;
     margin-left: -150px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .main-4th {
@@ -250,8 +254,7 @@ h5 {
     background-color: #111111;
     color: white;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    font-family: 'Arimo', sans-serif;
 }
 
 .head-1 {
@@ -259,7 +262,7 @@ h5 {
     line-height: 1.6;
     box-sizing: border-box;
     width: 350px;
-    padding: 0px 30px;
+    padding: 50px 30px;
 }
 
 .footer {
@@ -270,9 +273,14 @@ h5 {
     background-color: #333333;
     bottom: 105px;
     justify-content: center;
+    font-family: 'Arimo', sans-serif;
 }
 
 .p2 {
     position: relative;
     top: 40px;
+}
+
+.anchor {
+    color: white;
 }
