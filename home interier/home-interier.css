@@ -395,3 +395,20 @@ footer{
     padding-top: 50px;
     box-sizing: border-box;
 }
+
+
+@media screen and (max-width: 768px) {
+    #img-1 {
+        width: 400px;
+        height: 400px;
+    }
+  }
+
+
+
+  @media screen and (max-width: 450px) {
+    #img-1 {
+        width: 300px;
+        height: 400px;
+    }
+  }
